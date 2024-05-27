@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="MyCode">
+      <UniqueIdentifier>{72056cb6-72a2-42b7-b05e-376f1ddd957e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyCode\Effects">
+      <UniqueIdentifier>{a445f843-77df-4dde-a044-71d1d48f06c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyCode\Mesh">
+      <UniqueIdentifier>{784038a4-f3e0-4f5c-aded-1c76ba6d0bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyCode\Basics">
+      <UniqueIdentifier>{62b56513-ff4a-4965-8e9a-d58d409ac06c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector3.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelpers.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorRGB.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEffect.h">
+      <Filter>MyCode\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="FireEffect.h">
+      <Filter>MyCode\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleEffect.h">
+      <Filter>MyCode\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>MyCode\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>MyCode\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>MyCode\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>MyCode\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes.h">
+      <Filter>MyCode\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>MyCode\Effects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEffect.cpp">
+      <Filter>MyCode\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="FireEffect.cpp">
+      <Filter>MyCode\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleEffect.cpp">
+      <Filter>MyCode\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>MyCode\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>MyCode\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>MyCode\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>MyCode\Effects</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
